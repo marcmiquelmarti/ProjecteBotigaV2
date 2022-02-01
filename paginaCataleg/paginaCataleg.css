@@ -1,0 +1,114 @@
+.htmlCataleg{
+    background-image: url("../Images/fons2.jpg");
+    background-size: cover;
+    min-height: 100%;
+}
+.cajaLogo {
+  display: inline-block;
+  width: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 900%;
+  color: rgb(228, 41, 41);
+  -webkit-text-stroke: 2px black;
+}
+article {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-color: rgb(158, 66, 245);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  border: black solid 5px;
+}
+
+
+.addCistella{
+    background-color:  rgb(158, 66, 245);
+}
+.infoManga{
+    background-color: rgb(158, 66, 245);
+    
+    text-align: center;
+}
+
+.sinopsis{
+    padding-left: 3%;
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+    float: right;   
+}
+.menuManga{
+    margin:auto;
+    padding-left: 3%;
+    padding-top: 3%;
+    align-items: center;
+    text-align: center;
+}
+
+.item-imagen{
+    padding-top: 1%;
+    padding-left: 1%;
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 100%; 
+    float: left;
+}
+.item-manga{
+    padding-top: 1%;
+}
+article{
+    width: 60%;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 20%;
+    display: inline-block;
+    text-align: center;
+    background-color:  rgba(162, 76, 242, 0.85);
+
+}
+
+.submenu1 li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    display: inline;
+    padding: 1.5%;
+    float: left;
+    opacity: 0.9;
+    border-radius: 8px;
+    border-collapse: collapse;
+    border: 2px black solid;
+    margin-right: 5px;
+    max-height: 5px;
+    min-height: 1px;
+    padding-top: 0.8%;
+    background-color: rgba(240, 248, 255, 0.892);
+}
+.submenu1 li:hover{
+    background-color: rgba(162, 76, 242, 0.85);
+    
+}
+.submenu2 li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    display: inline;
+    padding: 1.5%;
+    float: right;
+    opacity: 0.9;
+    border-radius: 8px;
+    border-collapse: collapse;
+    border: 2px black solid;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    max-height: 5px;
+    min-height: 1px;
+    padding-top: 0.8%;
+    background-color: rgba(240, 248, 255, 0.892);
+
+}
+.submenu2 li:hover{
+    background-color: rgba(162, 76, 242, 0.85);
+    
+}

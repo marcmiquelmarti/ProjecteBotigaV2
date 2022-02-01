@@ -1,0 +1,81 @@
+html{
+    background-image: url("Images/fons2.jpg");
+    background-size: cover;
+    min-height: 100%;
+
+}
+.cajaLogo{
+    display: inline-block;
+    width:100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 900%;
+    color:rgb(228, 41, 41);
+    -webkit-text-stroke: 2px black;
+}
+article{
+    width: 99%;
+    height: 99%;
+    margin-top:2%;
+    display: inline-block;
+    background-color: rgba(162, 76, 242, 0.85);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border: black solid 5px;
+}
+h1{
+    width: 30%;
+    clear:both;
+    margin-left: 50px;
+    margin-top:30px;
+    margin-bottom: 15px;
+    
+}
+p{
+    width: 92.5%;
+    text-align: left;
+    margin-left: 50px;
+}
+h2, h3, h4, h5, h6, h7, h8{
+    font-size: large;
+    width: 30%;
+    margin-left: 50px;
+}
+.submenu1 li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    display: inline;
+    padding: 1.5%;
+    float: left;
+    background-color: rgba(240, 248, 255, 0.892);
+    opacity: 0.9;
+    border-radius: 8px;
+    border-collapse: collapse;
+    border: black solid 2px;
+    margin-right: 5px;
+    max-height: 8px;
+    min-height: 1px;
+    padding-top: 0.8%;
+}
+.submenu1 li:hover{
+    background-color: rgba(162, 76, 242, 0.85);
+}
+.submenu2 li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    display: inline;
+    padding: 1.5%;
+    float: right;
+    background-color: rgba(240, 248, 255, 0.892);
+    opacity: 0.9;
+    border-radius: 8px;
+    border-collapse: collapse;
+    border: black solid 2px;
+    margin-right: 5px;
+    max-height: 8px;
+    min-height: 1px;
+    padding-top: 0.8%;
+}
+.submenu2 li:hover{
+    background-color: rgba(162, 76, 242, 0.85);
+}

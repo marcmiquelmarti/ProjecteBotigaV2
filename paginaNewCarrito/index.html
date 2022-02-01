@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Cataleg</title>
+</head>
+
+<body>
+
+    <header>
+        <title>CASA FRIKI - la teva botiga de manga i merchandising!</title>
+    </header>
+    <box class="cajaLogo">
+    <img src="./img/CASAFRIKI.png" id="logo" width="150" height="150" />
+    <h>CASA FRIKI</h>
+    </box>
+    <nav>
+        <ul class="submenu1">
+            <li><a href="../paginaInici/paginaInici.html">Inici</a></li>
+            <li><a href="../paginaQuiSom/paginaQuiSom.html">Sobre nosaltres</a></li>
+            <li><a href="../paginaCataleg/paginaCataleg.html">Catàleg</a></li>
+            <li><a href="../paginaNewCarrito/index.html">Cistella</a></li>
+            <li><a href="../paginaContacte/paginaContacte.html">Contacte</a></li>
+        </ul>
+
+        <ul class="submenu2">
+            <li><a href="../paginaInici/paginaInici.html">Iniciar sessió</a></li>
+            <li><a href="../paginaRegistre/paginaRegistre.html">Registre</a></li>
+            <li><a href="../paginaSortir/paginaSortir.html">Sortir</a></li>           
+        </ul>
+    </nav>
+    <header class="cat">
+        <div class="container">
+            <h1 class="text-center">CATALEG</h1>
+            <hr>
+        </div>
+    </header>
+    <!-- START SECTION STORE -->
+    <section class="store">
+        <div class="container">
+            <div class="items">
+                <div class="row">
+
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Kakegurui Cap. 1</h3>
+                            <img class="item-image" src="./img/Kakegurui1.jpg">
+
+                            <div class="item-details">
+                                <h4 class="item-price">9.99€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CISTELL</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Arifureta Cap. 1</h3>
+
+                            <img class="item-image" src="./img/Arifureta1.jpg">
+
+                            <div class="item-details">
+                                <h4 class="item-price">9.99€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CISTELL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Murcielago Cap. 1</h3>
+
+                            <img class="item-image" src="./img/Murcielago1.jpg">
+
+                            <div class="item-details">
+                                <h4 class="item-price">9.99€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CISTELL</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Figura de Tanjiro Kamado, Demon Slayer</h3>
+
+                            <img class="item-image" src="./img/figura.jpg">
+
+                            <div class="item-details">
+                                <h4 class="item-price">39.99€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CISTELL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Figura de Sesshomaru, Inuyasha</h3>
+
+                            <img class="item-image" src="./img/figura2.jpg">
+                            <div class="item-details">
+                                <h4 class="item-price">19.99€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CISTELL</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Figura de Bulma, Bola de drac</h3>
+
+                            <img class="item-image" src="./img/figura3.jpg">
+                            <div class="item-details">
+                                <h4 class="item-price">59.99€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CISTELL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION STORE -->
+    <!-- START SECTION SHOPPING CART -->
+    <section class="shopping-cart">
+        <div class="container">
+            <h1 class="text-center">CISTELL</h1>
+            <hr>
+            <div class="row">
+                <div class="col-6">
+                    <div class="shopping-cart-header">
+                        <h6>Producte</h6>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="shopping-cart-header">
+                        <h6 class="text-truncate">Preu</h6>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="shopping-cart-header">
+                        <h6>Quantitat</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- ? START SHOPPING CART ITEMS -->
+            <div class="shopping-cart-items shoppingCartItemsContainer">
+            </div>
+            <!-- ? END SHOPPING CART ITEMS -->
+
+            <!-- START TOTAL -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="shopping-cart-total d-flex align-items-center">
+                        <p class="mb-0">Total</p>
+                        <p class="ml-4 mb-0 shoppingCartTotal">0€</p>
+                        <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                            data-delay="2000">
+                            <div class="toast-header">
+                                <span>✅</span>
+                                <strong class="mr-auto ml-1 text-secondary">Element en el cistell</strong>
+                                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="toast-body text-white">
+                                S'ha augmentat la quantitat correctament
+                            </div>
+                        </div>
+                        <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                            data-target="#comprarModal">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- END TOTAL -->
+
+            <!-- START MODAL COMPRA -->
+            <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="comprarModalLabel">Gràcies per la seva compra</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Aviat rebrà la seva comanda</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Tancar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END MODAL COMPRA -->
+
+
+        </div>
+
+    </section>
+    <!-- END SECTION SHOPPING CART -->
+
+
+
+
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <script src="./tienda.js"></script>
+
+</body>
+
+</html>

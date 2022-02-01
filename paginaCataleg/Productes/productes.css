@@ -1,0 +1,123 @@
+.htmlCataleg {
+  background-image: url('../../Images/fons2.jpg');
+  background-repeat: no-repeat;
+
+}
+.cajaLogo {
+  display: inline-block;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 900%;
+  color: rgb(228, 41, 41);
+  -webkit-text-stroke: 2px black;
+}
+article {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-color: blueviolet;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border: black solid 5px;
+}
+.figureNez{
+
+
+}
+.KakeManga{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.addCistella {
+  background-color: blueviolet;
+}
+.infoManga {
+  background-color: blueviolet;
+  width: 40%;
+  text-align: left;
+}
+
+.sinopsis {
+  padding-left: 3%;
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+  float: right;
+}
+
+.productos{
+padding-left: 3%;
+padding-top: 10%;
+padding-bottom: 3%;
+display: block;
+width: 90%;
+height: 90%;
+float: left;
+background-color: blueviolet;
+}
+
+.item-imagen {
+  padding-left: 3%;
+  padding-top: 10%;
+  padding-bottom: 3%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.sinopsis{
+  padding-right: 10%;
+}
+.textLateral{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article{
+  width: 50%;
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-left: 20%;
+  display: inline-block;
+  background-color: blueviolet;
+}
+
+
+.submenu1 li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  display: inline;
+  padding: 1.5%;
+  float: left;
+  opacity: 0.9;
+  border-radius: 8px;
+  border-collapse: collapse;
+  border: 2px black solid;
+  margin-right: 5px;
+  max-height: 5px;
+  min-height: 1px;
+  padding-top: 0.8%;
+  background-color: aquamarine;
+}
+.submenu1 li:hover {
+  background-color: purple;
+}
+.submenu2 li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  display: inline;
+  padding: 1.5%;
+  float: right;
+  opacity: 0.9;
+  border-radius: 8px;
+  border-collapse: collapse;
+  border: 2px black solid;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  max-height: 5px;
+  min-height: 1px;
+  padding-top: 0.8%;
+  background-color: aquamarine;
+}

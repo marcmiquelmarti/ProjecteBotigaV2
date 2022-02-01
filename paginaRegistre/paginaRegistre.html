@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="paginaRegistre.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="paginaRegistre.js"></script>
+    <header>
+        <title>CASA FRIKI - la teva botiga de manga i merchandising!</title>
+
+    </header>  
+
+    <box class="cajaLogo">
+            <img src="../Images/CASAFRIKI.png" id="logo" width="150" height="150" />
+            <h>CASA FRIKI</h>
+    </box>  
+    <nav>
+            <ul class="submenu1">
+                <li><a href="../paginaInici/paginaInici.html">Inici</a></li>
+                <li><a href="../paginaQuiSom/paginaQuiSom.html">Sobre nosaltres</a></li>
+                <li><a href="../paginaCataleg/paginaCataleg.html">Catàleg</a></li>
+                <li><a href="../paginaNewCarrito/index.html">Cistella</a></li>
+                <li><a href="../paginaContacte/paginaContacte.html">Contacte</a></li>
+            </ul>
+    
+            <ul class="submenu2">
+                <li><a href="../paginaInici/paginaInici.html">Iniciar sessió</a></li>
+                <li><a href="../paginaRegistre/paginaRegistre.html">Registre</a></li>
+                <li><a href="../paginaSortir/paginaSortir.html">Sortir</a></li>          
+            </ul>
+        </nav>
+
+    <article>
+         <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+        Username:<br /><input type="text" name="username" size="10" /><br />
+        Password:<br /><input type="password" name="pswd" SIZE="10" /><br />
+        <input type="submit" value="Register" />  
+    </form>
+    </article>
+
+    <aside>
+    </aside>
+
+    <footer>
+
+    </footer>
+        
+</html>
